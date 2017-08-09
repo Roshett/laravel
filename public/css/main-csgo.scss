@@ -1,0 +1,312 @@
+$mf : 'Open Sans', sans-serif;
+$fl : 300;
+$fr : 400;
+$fb : 700;
+$hc : #363434;
+$tc : #fdfdfd;
+$decc : #fbcc11;
+$background-active : #5c5c5c;
+
+/* cs-go content */
+.wrap-csgo-content{
+
+	padding-bottom: 30px;
+	::-webkit-input-placeholder {
+		color: #5d5a5a;
+	}
+	::-moz-placeholder{
+		color: #5d5a5a;
+	}
+	:-moz-placeholder{
+		color: #5d5a5a;
+	}
+	:-ms-input-placeholder{
+		color: #5d5a5a;
+	}
+	input{
+		-webkit-transition: 0.2s;
+		-moz-transition: 0.2s;
+		-ms-transition: 0.2s;
+		-o-transition: 0.2s;
+		transition: 0.2s;
+	}
+	input:focus::-webkit-input-placeholder { color:transparent; }
+	input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+	input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+	input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+	background-size: cover;
+	background-image: url(../img/csgobg.png);
+	// height: 1204px;
+	width: auto;
+	.wrap-goods-content{
+		z-index: 999;
+		box-shadow: 0px 2px 7.44px 0.56px rgba(0, 0, 0, 0.34);
+		 
+		margin-top: 13px;
+		background-color: $hc; 
+	}
+	.left-column-goods-text{
+		display: inline-block;
+		padding-top: 20px;
+		margin-left: 10px;
+		font-size: 16px;
+		font-weight: 400;  
+	}
+	.search-item{
+		outline: none;
+		box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.29);
+		margin-top: 20px;
+		width: 340px;
+		height: 25px;
+		-webkit-border-radius: 30px; 
+		 border-radius: 30px;
+		border: none;
+		color: $hc;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.menu-sort{
+		font-size: 16px;
+		height: 	0px;
+		margin-top: 15px;
+		ul{
+			list-style: none;
+			margin: 0;
+			padding-left: 0;
+		}
+		li{
+			padding: 5px 5px; 
+			display: inline-block;
+			border-bottom: 2px solid transparent;
+			transition: 0.3s;
+		}
+		li:hover{
+			cursor: pointer;
+			border-color: $decc;  
+		}
+		.active{
+			border-color: $decc;
+		}
+		a{
+			color: $tc;
+		 	text-decoration: none;
+		}
+	}
+	.wrap-item{
+		padding-top: 20px;
+		 
+		img{
+
+			width: 155px;
+			height: auto;   
+		}
+		.wrap-item-top{
+			cursor: pointer;
+		}
+		.price-bg{
+			position: absolute;
+			opacity: 0.75;
+			background-color: #686968;
+			height: 30px; 
+			width: 154px;
+			margin-top: -32px;
+		}
+		span{
+			display: inline-block;
+			margin-top: 3px;
+		}
+		.price{
+			margin-left: 5px;
+			font-size: 16px;
+			color: #FFF;
+			font-weight: 400;  
+		}
+		.count{
+			margin-right: 5px;
+			font-size: 16px;
+			color: #000;
+			font-weight: 700;
+			float: right;   
+		}
+		.wrap-name{
+			color: #f9f9f9; 
+			text-align: center;
+			font-size: 16px; 
+			width: 155px;
+			background-color: #4d4d4b;
+			height: 28px;
+		}
+		a{
+			color: $tc; 
+			cursor: pointer;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+	}
+	.wrap-pages{
+		margin-top: 30px;
+		padding-bottom: 30px; 
+		font-size: 18px;
+		ul{
+			list-style: none;
+			margin: 0;
+			padding-left: 0;
+		}
+		li{
+			padding: 5px 15px;
+			margin-left: 40px; 
+			display: inline-block;
+			border-bottom: 2px solid transparent;
+			transition: 0.3s;
+		}
+		li:hover{
+			cursor: pointer;
+			border-color: $decc;  
+		}
+		.active{
+			border-color: $decc;
+		}
+		a{
+			color: $tc;
+		 	text-decoration: none;
+		}
+	}
+	.wrap-sort-char{
+		::-webkit-input-placeholder {
+		color: #fff;
+
+	}
+	::-moz-placeholder{
+		color: #fff;
+
+	}
+	:-moz-placeholder{
+		color: #fff;
+
+	}
+	:-ms-input-placeholder{
+		color: #fff;
+
+	}
+	margin-top: 10px;
+	select {
+		cursor: pointer;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		border: none;
+		outline: none
+	}
+		.char-block{
+			text-align: center;
+			margin-top: 10px;
+			margin-left: 40px;
+			border: none;
+			color: $tc;
+			background-color: #595656;
+			width: 260px;
+			height: 35px;
+		}
+		option{
+			border: none;
+			outline: none
+		}
+		span{
+			font-size: 16px;
+			font-weight: 400;
+		}
+	}
+	.wrap-info{
+		margin-top: 50px;
+		.lots-block{
+			margin-top: 15px;
+		}
+		.block-info{
+			margin-left: 30px;
+			.greenpoint{
+				position: absolute;
+				height: 15px;
+				width: 15px;
+				background-color: #b2fd3a;
+				-webkit-border-radius: 10px;
+				border-radius: 10px;
+				margin-left: 27px;
+				margin-top: 13px; 
+			}
+			.online{
+				margin-left: 70px;
+				font-size: 28px;
+				font-weight: 300; 
+			}
+			.howmuch-i{
+				position: absolute;
+				margin-left: 10px;
+			}
+			.howmuch{
+				margin-left: 70px;
+				display: inline-block;
+				margin-top: 10px;
+				font-size: 28px;
+				font-weight: 300;
+			}
+			.lots-i{
+				position: absolute;
+				margin-left: 15px;
+			}
+			.lots{
+				margin-left: 70px;
+				display: inline-block;
+				margin-top: 0px;
+				font-size: 28px;
+				font-weight: 300;
+			}
+		}
+	}
+	.wrap-switch{
+
+		margin-top: 285px; 
+		z-index: 999; 	
+		position: absolute;  
+	}
+	.switch{
+		width: 90px;
+		height: 90px;
+		
+	}
+	.csgo{
+		box-shadow: 0px 2px 7.44px 0.56px rgba(0, 0, 0, 0.34);
+		display: block;
+		background-color: $hc; 
+	}
+	.dota{
+		background-color: transparent;
+		cursor: pointer;	
+	}
+	.dota:hover{
+		opacity: 0.8; 
+		
+	}
+	.csgo-side{
+		margin: 27px 0 0 7px; 
+	}
+	.dota-side{
+		cursor: pointer;
+		margin: 10px 0 0 5px; 
+	}
+	a{
+		cursor: default;
+	}
+	
+}
+.sides-img{
+		margin-top: -68px;
+		z-index: 0; 
+		position: absolute;
+	}
+	.left-img-csgo{
+		margin-left:-3%; 
+	}.right-img-csgo{
+		margin-left:85%;
+	}

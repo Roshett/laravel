@@ -1,0 +1,24 @@
+$mf : 'Open Sans', sans-serif;
+$fl : 300;
+$fr : 400;
+$fb : 700;
+$hc : #363434;
+$tc : #fdfdfd;
+$decc : #fbcc11;
+$background-active : #5c5c5c;
+
+.wrap-users-aggr{
+	padding-top: 60px;
+	background-color: $hc;
+	color: #fdfdfd; 
+	h6{
+		margin-left: 20px;
+		font-size: 20px;
+		font-weight: 400; 
+	}
+	p{
+		margin-left: 40px;
+		font-size: 16px;
+		font-weight: 300; 
+	}
+}
